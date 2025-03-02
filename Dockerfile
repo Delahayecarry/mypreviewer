@@ -17,8 +17,16 @@ RUN rm -f .env
 ARG RESEND_API_KEY
 ENV RESEND_API_KEY=$RESEND_API_KEY
 
+# 添加调试信息
+RUN echo "Listing root directory:"
+RUN ls -la /app
+RUN echo "Listing public directory:"
+RUN ls -la /app/public
+RUN echo "Checking if image files exist:"
+RUN ls -la /app/public/YOLOv8s.png || echo "YOLOv8s.png not found"
+RUN ls -la /app/public/MyBlog.png || echo "MyBlog.png not found"
+
 # 构建应用
-RUN ls -la /app/public  # 列出 public 目录内容
 RUN echo "Starting build..." && npm run build || (echo "Build failed" && npm run build --verbose)
 
 # 生产阶段

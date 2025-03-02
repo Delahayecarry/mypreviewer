@@ -2,9 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import Zer02LLMImg from '../public/Zer02LLM.png'
-import YOLOv8sImg from '../public/YOLOv8s.png'
-import MyBlogImg from '../public/MyBlog.png'
+
 
 export const links = [
   {
@@ -66,21 +64,21 @@ export const projectsData = [
     description:
       "Zero2LLM is a large language model (LLM) learning project specifically for beginners. This project adopts a step-by-step approach to help you master the core concepts and implementation of modern large language models step by step from the most basic Attention mechanism.",
     tags: ["Python", "PyTorch", "Hugging Face", "Transformers", "Attention Mechanism"],
-    imageUrl: Zer02LLMImg,
+    imageUrl: "/Zer02LLM.png",
   },
   {
     title: "YOLOv8s using in earth-stricken area detection",
     description:
       "YOLOv8s is a small, fast, and accurate object detection model. It is a single-stage detector that uses a single neural network to predict bounding boxes and class probabilities for objects in an image.",
     tags: ["Python", "PyTorch", "YOLO", "Object Detection", "Computer Vision"],
-    imageUrl: YOLOv8sImg,
+    imageUrl: "/YOLOv8s.png",
   },
   {
     title: "MyBlog",
     description:
       "As a record of technology and daily life",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Framer"],
-    imageUrl: MyBlogImg,
+    imageUrl: "/MyBlog.png",
   },
 ] as const;
 
