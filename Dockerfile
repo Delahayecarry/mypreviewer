@@ -18,7 +18,8 @@ ARG RESEND_API_KEY
 ENV RESEND_API_KEY=$RESEND_API_KEY
 
 # 构建应用
-RUN npm run build
+RUN ls -la /app/public  # 列出 public 目录内容
+RUN echo "Starting build..." && npm run build || (echo "Build failed" && npm run build --verbose)
 
 # 生产阶段
 FROM node:18-alpine AS runner

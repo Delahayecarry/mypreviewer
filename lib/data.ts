@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import Zer02LLMImg from "@/public/Zer02LLM.png";
-import YOLOv8sImg from "@/public/YOLOv8s.png";
-import MyBlogImg from "@/public/MyBlog.png";
+import Zer02LLMImg from '../public/Zer02LLM.png'
+import YOLOv8sImg from '../public/YOLOv8s.png'
+import MyBlogImg from '../public/MyBlog.png'
 
 export const links = [
   {
@@ -51,7 +51,7 @@ export const experiencesData = [
     date: "2024 - 2025",
   },
   {
-    title: "Guangzhou University’s 19th “Challenge Cup” National College Students’ Extracurricular Academic and Technological Works Competition",
+    title: "Guangzhou University's 19th 'Challenge Cup' National College Students' Extracurricular Academic and Technological Works Competition",
     location: "Guangzhou, Guangdong",
     description:
       "UAVs are used to collect more than 3,000 image data sets on-site, and label them with labellimg, and create high-quality construction waste image data sets imitating Microsoft Coco data sets.\n",

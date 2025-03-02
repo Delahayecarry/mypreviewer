@@ -1,0 +1,5 @@
+# 确保没有排除 public 目录
+node_modules
+.env
+.env.*
+npm-debug.log 
