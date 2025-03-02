@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Zer02LLMImg from "@/public/Zer02LLM.png";
+import YOLOv8sImg from "@/public/YOLOv8s.png";
+import MyBlogImg from "@/public/MyBlog.png";
 
 export const links = [
   {
@@ -35,73 +35,74 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated from Guangzhou University",
+    location: "Guangzhou, Guangdong",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. I have learned a lot of knowledge about computer science and engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 - now",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "International Consortium of Chinese Mathematicians",
+    location: "Guangzhou, Guangdong",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Participating in the training and results of the YOLO series of models won national awards in participating in the Innovation Competition for Construction Engineering and Management (ICCEM) held by Tsinghua University",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2024 - 2025",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Guangzhou University’s 19th “Challenge Cup” National College Students’ Extracurricular Academic and Technological Works Competition",
+    location: "Guangzhou, Guangdong",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "UAVs are used to collect more than 3,000 image data sets on-site, and label them with labellimg, and create high-quality construction waste image data sets imitating Microsoft Coco data sets.\n",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - 2025",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Ze02LLM",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Zero2LLM is a large language model (LLM) learning project specifically for beginners. This project adopts a step-by-step approach to help you master the core concepts and implementation of modern large language models step by step from the most basic Attention mechanism.",
+    tags: ["Python", "PyTorch", "Hugging Face", "Transformers", "Attention Mechanism"],
+    imageUrl: Zer02LLMImg,
   },
   {
-    title: "rmtDev",
+    title: "YOLOv8s using in earth-stricken area detection",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "YOLOv8s is a small, fast, and accurate object detection model. It is a single-stage detector that uses a single neural network to predict bounding boxes and class probabilities for objects in an image.",
+    tags: ["Python", "PyTorch", "YOLO", "Object Detection", "Computer Vision"],
+    imageUrl: YOLOv8sImg,
   },
   {
-    title: "Word Analytics",
+    title: "MyBlog",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "As a record of technology and daily life",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Framer"],
+    imageUrl: MyBlogImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
+  "Python",
+  "PyTorch",
+  "YOLO",
+  "Object Detection",
+  "Computer Vision",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Tailwind",
   "Framer Motion",
+  "Docker",
+  "AWS",
+  "Git",
+  "GitHub",
+  "Linux",
+  "SQL",
+  "NoSQL",
+  "RESTful APIs",
+  "GraphQL",
+  
 ] as const;
