@@ -71,14 +71,14 @@ export const projectsData = [
     description:
       "YOLOv8s is a small, fast, and accurate object detection model. It is a single-stage detector that uses a single neural network to predict bounding boxes and class probabilities for objects in an image.",
     tags: ["Python", "PyTorch", "YOLO", "Object Detection", "Computer Vision"],
-    imageUrl: "/YOLOv8s.png",
+    imageUrl: "/Yolov8s.png",
   },
   {
     title: "MyBlog",
     description:
       "As a record of technology and daily life",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Framer"],
-    imageUrl: "/MyBlog.png",
+    imageUrl: "/Myblog.png",
   },
 ] as const;
 
