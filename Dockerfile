@@ -25,6 +25,9 @@ ENV NODE_ENV=production
 # 在这里声明环境变量，但不设置值
 ENV RESEND_API_KEY=""
 
+# 安装 sharp 包
+RUN npm install sharp
+
 # 复制必要文件
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
